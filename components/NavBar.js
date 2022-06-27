@@ -20,6 +20,17 @@ export default function NavBar() {
           </Link>
         </li>
       </ul>
+      <style jsx>{`
+        ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          gap: 0.75rem;
+        }
+        li a {
+          color: darkblue;
+        }
+      `}</style>
     </nav>
   )
 }
