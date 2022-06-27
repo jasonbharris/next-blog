@@ -1,7 +1,14 @@
+import Head from 'next/head'
+
 export default function ContactPage() {
   return (
-    <main>
-      <p>Contact works!!</p>
-    </main>
+    <>
+    <Head>
+      <title>Contact - My Blog</title>
+    </Head>
+      <main>
+        <p>Contact works!!</p>
+      </main>
+    </>
   )
 }
